@@ -1,15 +1,15 @@
-package indi.tom.test;
+package indi.tom.test.aspectj;
 
 public aspect MyAspectJDemo {
     /**
      * 定义切点,日志记录切点
      */
-    pointcut recordLog():call(* indi.tom.test.HelloWorld.sayHello(..));
+    pointcut recordLog():call(* indi.tom.test.aspectj.HelloWorld.sayHello(..));
 
     /**
      * 定义切点,权限验证(实际开发中日志和权限一般会放在不同的切面中,这里仅为方便演示)
      */
-    pointcut authCheck():call(* indi.tom.test.HelloWorld.sayHello(..));
+    pointcut authCheck():call(* indi.tom.test.aspectj.HelloWorld.sayHello(..));
 
     /**
      * 定义前置通知!

@@ -1,4 +1,4 @@
-package indi.tom.test;
+package indi.tom.test.aspectj;
 
 /**
  * @Author totian
