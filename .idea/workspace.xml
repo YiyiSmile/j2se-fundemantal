@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b2baa5c8-0ae0-484b-a1ca-ecd9f5968cf9" name="Default Changelist" comment="" />
+    <list default="true" id="b2baa5c8-0ae0-484b-a1ca-ecd9f5968cf9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +31,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1TEjF8JMspQJX5VKK92StSl60Kk" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="Repository.Attach.Annotations" value="false" />
@@ -38,7 +42,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/indi/tom/test/JUC" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -46,7 +50,11 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="indi.tom.test.JUC" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Java\IdeaProjects\aspectj\src\indi\tom\test\JUC" />
       <recent name="D:\Java\IdeaProjects\aspectj\lib" />
       <recent name="D:\Java\IdeaProjects\aspectj\src\indi\tom\test" />
     </key>
@@ -63,7 +71,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FileCopy01">
+  <component name="RunManager" selected="Application.ProducerConsumerUseReentrantLock2">
     <configuration name="FileCopy01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="indi.tom.test.IO.FileCopy01" />
       <module name="aspectj" />
@@ -103,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="indi.tom.test.InheritancTest.Test" />
+    <configuration name="ProducerConsumer2ViaReentrantLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="indi.tom.test.JUC.ProducerConsumer2ViaReentrantLock" />
       <module name="aspectj" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="indi.tom.test.InheritancTest.*" />
+          <option name="PATTERN" value="indi.tom.test.JUC.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="indi.tom.test.JDBCtest.Test01" />
+    <configuration name="ProducerConsumerUseReentrantLock2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="indi.tom.test.JUC.ProducerConsumerUseReentrantLock2" />
       <module name="aspectj" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="indi.tom.test.JDBCtest.*" />
+          <option name="PATTERN" value="indi.tom.test.JUC.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProducerConsumerUseReentrantLock2" />
+        <item itemvalue="Application.ProducerConsumer2ViaReentrantLock" />
         <item itemvalue="Application.FileCopy01" />
         <item itemvalue="Application.FileOutputSteamTest" />
         <item itemvalue="Application.ProduceConsume" />
-        <item itemvalue="Application.Test01" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +157,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1573032042825</updated>
-      <workItem from="1573032046412" duration="14628000" />
+      <workItem from="1573032046412" duration="18686000" />
     </task>
     <servers />
   </component>
